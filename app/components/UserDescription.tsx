@@ -2,12 +2,17 @@ import React from "react";
 
 export default function UserDescription() {
   return (
+    // Grid de 12 columnas
+    // En pantallas grandes ocupa 8 
+    // En pantallas medianas ocupa 6 
+    // En pantallas pequeñas ocupa 12
     <div className="col-span-12 md:col-span-6 lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-
+      {/* Primer contenedor */}
       <div className="bg-card-bg-light dark:bg-card-bg-dark p-4 rounded-lg">
         <h2 className="text-xl font-semibold mb-2 text-card-h2-light dark:text-card-h2-dark">
           Bio
         </h2>
+
         <p className="text-card-paragraph-light dark:text-card-paragraph-dark">
           Lorem ipsum dolor sit amet,
           consectetur adipiscing elit.
@@ -22,7 +27,7 @@ export default function UserDescription() {
         </p>
       </div>
 
-
+      {/* Segundo contenedor */}
       <div className="bg-card-bg-light dark:bg-card-bg-dark p-4 rounded-lg">
         <h2 className="text-xl font-semibold mb-2 text-card-h2-light dark:text-card-h2-dark">
           Personality
@@ -35,7 +40,7 @@ export default function UserDescription() {
         </ul>
       </div>
 
-
+      {/* Tercer contenedor */}
       <div className="bg-card-bg-light dark:bg-card-bg-dark p-4 rounded-lg">
         <h2 className="text-xl font-semibold mb-2 text-card-h2-light dark:text-card-h2-dark">
           Pain Points
@@ -48,7 +53,7 @@ export default function UserDescription() {
         </ul>
       </div>
 
-
+      {/* Cuarto contenedor */}
       <div className="bg-card-bg-light dark:bg-card-bg-dark p-4 rounded-lg">
         <h2 className="text-xl font-semibold mb-2 text-card-h2-light dark:text-card-h2-dark">
           Goals

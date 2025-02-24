@@ -2,6 +2,7 @@ import React from "react";
 
 export default function UserPersona() {
   return (
+    // Esta es la columna de la imagen de la chica
         <div className="col-span-1 md:col-span-1 lg:col-span-4 items-center bg-card-bg-person-light dark:bg-primary-dark px-4 pt-7 rounded-lg">
           <img
             src="/assets/user-persona.png"
@@ -11,11 +12,11 @@ export default function UserPersona() {
 
           <div className="">
             <div className="flex justify-between py-1.5">
-              <div className="w-1/2">
+                <div className="w-1/2"> {/*w-1/2 es la mitad del ancho de la columna, para que se ponga uno al lado del otro*/} 
                 <h3 className="font-semibold text-card-h2-light dark:text-card-h2-dark">
                   NAME:
                 </h3>
-              </div>
+                </div>
               <div className="w-1/2">
                 <p className="text-card-paragraph-light dark:text-card-paragraph-dark"> 35</p>
               </div>
