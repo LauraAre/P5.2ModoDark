@@ -2,7 +2,7 @@ import React from "react";
 
 export default function UserPersona() {
   return (
-        <div className="col-span-4 items-center bg-card-bg-person-light dark:bg-primary-dark px-4 pt-7 rounded-lg">
+        <div className="col-span-1 md:col-span-1 lg:col-span-4 items-center bg-card-bg-person-light dark:bg-primary-dark px-4 pt-7 rounded-lg">
           <img
             src="/assets/user-persona.png"
             alt="User Persona"

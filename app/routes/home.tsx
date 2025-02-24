@@ -22,7 +22,7 @@ export default function Home() {
           User Persona
         </h1>
         <hr className="bg-primary-light dark:bg-primary-dark h-1 w-26 border-0 rounded-full mb-5" />
-        <div className="grid grid-cols-12 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5">
           <UserPersona />
           <UserDescription />
         </div>

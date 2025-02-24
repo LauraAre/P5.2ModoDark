@@ -2,7 +2,7 @@ import React from "react";
 
 export default function UserDescription() {
   return (
-    <div className="col-span-8 grid md:grid-cols-2 gap-4">
+    <div className="col-span-12 md:col-span-6 lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-4">
 
       <div className="bg-card-bg-light dark:bg-card-bg-dark p-4 rounded-lg">
         <h2 className="text-xl font-semibold mb-2 text-card-h2-light dark:text-card-h2-dark">
