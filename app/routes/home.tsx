@@ -1,7 +1,9 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import ThemeToggle from "~/components/ThemeToggle";
+import UserDescription from "~/components/UserDescription";
+import UserPersona from "~/components/UserPersona";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
     { name: "description", content: "Welcome to React Router!" },
@@ -9,5 +11,22 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+
+    <div className="min-h-screen">
+      <div className="w-full flex justify-end p-4">
+        <ThemeToggle />
+      </div>
+      <div className="max-w-screen-lg mx-auto">
+        <h1 className="text-4xl font-bold text-main-header-light dark:text-main-header-dark mb-1">
+          User Persona
+        </h1>
+        <hr className="bg-primary-light dark:bg-primary-dark h-1 w-26 border-0 rounded-full mb-5" />
+        <div className="grid grid-cols-12 gap-5">
+          <UserPersona />
+          <UserDescription />
+        </div>
+      </div>
+    </div>
+  );
 }
