@@ -7,7 +7,8 @@
 El objetivo de esta práctica es implementar un diseño basado en un prototipo de Figma utilizando React Router y Tailwind CSS. Además, se desarrolló un modo noche que cambia según las preferencias del sistema o manualmente.
 
 ## 2. Comandos usados para poder ejecutar la aplicación
-- npm create vite@latest:Este comando es utilizado para crear un nuevo proyecto con Vite, una herramienta de compilación rápida que hemos ido usando a lo largo del curso.
+- npm create vite@latest:
+Este comando es utilizado para crear un nuevo proyecto con Vite, una herramienta de compilación rápida que hemos ido usando a lo largo del curso.
 Elegí React como framework y seleccioné la variante React Router v7 para manejar la navegación dentro de mi proyecto.
 
 - npx create-react-router dark-mode-practica:
