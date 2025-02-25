@@ -1,100 +1,18 @@
-# Welcome to React Router!
+# P5.2 Diseñar con Tailwind y React Router una página responsiva y modo noche
+> S2DAW Diseño de Interfaces Web
 
-A modern, production-ready template for building full-stack React applications using React Router.
+> Autora: Laura Arellano Torrero
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 1. Descripción General de mi proyecto
+El objetivo de esta práctica es implementar un diseño basado en un prototipo de Figma utilizando React Router y Tailwind CSS. Además, se desarrolló un modo noche que cambia según las preferencias del sistema o manualmente.
 
-## Features
+## 2. Comandos usados para poder ejecutar la aplicación
+- npm create vite@latest:Este comando es utilizado para crear un nuevo proyecto con Vite, una herramienta de compilación rápida que hemos ido usando a lo largo del curso.
+Elegí React como framework y seleccioné la variante React Router v7 para manejar la navegación dentro de mi proyecto.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- npx create-react-router dark-mode-practica:
+Este comando inicializa el proyecto con una plantilla base y además instala las dependencias necesarias. También configura Git para que el proyecto esté listo para el control de versiones.
 
-## Getting Started
+- npm install lucide-react:
+Este comando instala la biblioteca de íconos Lucide React para poder usar íconos SVG en tu proyecto.
 
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
