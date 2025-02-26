@@ -20,3 +20,7 @@ Este comando inicializa el proyecto con una plantilla base y además instala las
 
 Este comando instala la biblioteca de íconos Lucide React para poder usar íconos SVG en tu proyecto.
 
+## 3. Enlaces de interés
+
+- **[Enlace al Sistema de Diseño en Figma]**:(https://www.figma.com/design/G40Up8aSNvLloXVoi9F1uj/Dark-Mode?node-id=0-1&t=3LSOY3r2pajzLC6b-1)
+
